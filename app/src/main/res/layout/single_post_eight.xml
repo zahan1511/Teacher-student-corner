@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+
+    <TextView
+
+        android:id="@+id/courseno"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="2dip"
+
+        android:paddingLeft="8dp"
+
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:paddingLeft="8dp"/>
+
+    <TextView
+
+        android:id="@+id/datefrom"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="2dip"
+
+        android:paddingLeft="8dp"
+
+        android:textStyle="bold"
+
+        android:textColor="#FFFFFF" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/timefrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingLeft="8dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:text="To:"/>
+
+    <TextView
+
+        android:id="@+id/dateto"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold" >
+
+    </TextView>
+
+
+
+    <TextView
+
+        android:id="@+id/timeto"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="8dp"
+
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold" >
+
+    </TextView>
+
+
+
+</LinearLayout>
+
